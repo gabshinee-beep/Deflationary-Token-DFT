@@ -17,3 +17,6 @@ La función interna `_transfer` ha sido sobrescrita para incluir una comisión d
 
 ## 🔗 DESPLIEGUE (TESTNET)
 [Aquí añadirás el enlace de Etherscan cuando lo pruebes en la red.]
+
+## ⚠️ NOTA TÉCNICA Y AMBIENTE DE DESARROLLO
+El código está optimizado para Hardhat/Foundry. Al usar el entorno de Remix 1.4.0, se presentó un conflicto de versiones con las librerías base de OpenZeppelin (`ERC20.sol`), lo que impedía la compilación. El desarrollo se migrará a Hardhat (Bloque 6) para asegurar la compatibilidad y el testing exhaustivo.
